@@ -77,8 +77,16 @@ const FilterProducts = () => {
     } catch (error) {
       // Handle error
       console.error("Error filtering products:", error.response);
+      alert(error.response.data.message);
     } finally {
       setLoading(false);
+      setFormData({
+        category: "",
+        subcategory: "",
+        priceMin: "",
+        priceMax: "",
+        location: "",
+      });
       handleCloseFilter();
     }
   };
