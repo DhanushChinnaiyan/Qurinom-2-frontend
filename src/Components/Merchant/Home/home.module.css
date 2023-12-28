@@ -1,0 +1,11 @@
+.header img{
+    width: 100%;
+    height: calc(30vh + 20vw);
+}
+
+.CircularProgress{
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

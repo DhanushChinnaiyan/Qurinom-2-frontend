@@ -1,0 +1,53 @@
+
+
+.UserEntryBox{
+    box-shadow: 0 0 10px rgb(8, 2, 2);
+    border-radius: 10px;
+    padding: 40px 10px 10px 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    
+}
+
+
+.container{
+    display: flex;
+    gap: 1rem;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    padding: 30px;
+}
+.productCard{
+    width: 130px;
+    padding: 10px;
+}
+
+.image{
+    height: 130px;
+    width: 130px;
+    border-radius: 5px;
+}
+
+.productName{
+    font-size: smaller;
+    font-weight: bold;
+    text-align: center;
+    overflow-x: auto;
+    height: 60px;
+    width: 100%;
+}
+
+.productPrice{
+    margin-top: 10px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.button{
+    background-color: rgb(37, 37, 37);
+}
+
+.button:hover{
+    background-color: rgb(8, 0, 0);
+}
